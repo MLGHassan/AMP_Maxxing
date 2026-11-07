@@ -62,3 +62,8 @@ if __name__ == "__main__":
     print(f"  candidates above judge threshold: {(c.judge_p >= thr).mean():.0%}   random-mutant controls: {(c.random_mutant_judge_p >= thr).mean():.0%}")
     print(f"  candidates inside 5-95% charge AND hydrophobic-moment range of known AMPs: {inside:.0%}")
     print(f"  median edit distance to nearest known AMP: {c.edit_dist_nearest_known.median():.0f}")
+    rs = np.random.RandomState(0)
+    for name, other in [("plant seeds", c.seed_judge_p), ("random mutants", c.random_mutant_judge_p)]:
+        d = (c.judge_p - other).groupby(c.seed_id).mean().values
+        b = [rs.choice(d, len(d)).mean() for _ in range(5000)]
+        print(f"  candidates minus {name}: {d.mean():+.3f}  95% CI [{np.percentile(b, 2.5):+.3f}, {np.percentile(b, 97.5):+.3f}]")

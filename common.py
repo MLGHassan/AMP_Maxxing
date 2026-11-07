@@ -121,9 +121,10 @@ def partition(df, role="scorer", seed=0, mode="cluster", val_frac=0.15):
     """
     rng = np.random.RandomState(seed)
     if mode == "random":
+        tr_c, va_c, te_c = partition(df, role, seed, "cluster")     # same sizes as the cluster split
         idx = rng.permutation(len(df))
-        n_te, n_va = int(0.15 * len(df)), int(0.15 * len(df))
-        return idx[n_te + n_va:], idx[n_te:n_te + n_va], idx[:n_te]
+        n_te, n_va, n_tr = len(te_c), len(va_c), len(tr_c)
+        return idx[n_te + n_va:n_te + n_va + n_tr], idx[n_te:n_te + n_va], idx[:n_te]
     test = np.where(df.group == "test")[0]
     pool = df[df.group == role]
     cl = pool.cluster.unique()

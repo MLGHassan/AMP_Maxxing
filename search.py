@@ -71,6 +71,9 @@ if __name__ == "__main__":
     scorer = load_scorer(a.scorer, EsmEmbedder(device=dev) if "esm" in a.scorer else None, "cpu" if dev == "mps" else dev)
     rng = random.Random(a.rng)
     seeds = [(h, s) for h, s in read_fasta(a.seeds_fasta) if set(s) <= set(AA)]
+    grp = pd.read_csv(a.data, sep="\t").set_index("id").group.to_dict()
+    seeds = [(h, s) for h, s in seeds if grp.get(h.split("|")[0]) in ("scorer", "test")]   # judge never saw these
+    print(f"{len(seeds)} eligible plant seeds")
     rng.shuffle(seeds); seeds = seeds[:a.n_seeds]
     train_pos = pd.read_csv(a.data, sep="\t").query("label == 1").seq.tolist()
     rows = []
