@@ -1,0 +1,13 @@
+{
+  "n_pos_unique": 1026,
+  "n_neg_proteins": 3990,
+  "n_neg_random": 1026,
+  "n_neg_hard": 1026,
+  "n_pos_unmatched_in_hard": 0,
+  "uniprot_release": "2026_04",
+  "date": "2026-11-07",
+  "pos_query": "(keyword:KW-0929 OR keyword:KW-0044) AND (reviewed:true) AND (length:[10 TO 50])",
+  "neg_query": "(reviewed:true) AND (length:[100 TO 600]) AND (cc_scl_term:SL-0086) AND NOT (keyword:KW-0929) AND NOT (keyword:KW-0044) AND NOT (keyword:KW-0964)",
+  "n_plant_seeds": 119,
+  "license": "UniProt: CC BY 4.0"
+}
