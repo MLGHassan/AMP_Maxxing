@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+
+# Large or regenerable artefacts (recreated by run_all.sh)
+cache/
+checkpoints/
+data/raw/
+*.pt
+
+# Everything else is small and SHOULD be committed for reproducibility:
+# data/processed/*.tsv, DATA_SUMMARY.json, plant_seeds.fasta, results/, outputs/, figures/
