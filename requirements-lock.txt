@@ -1,0 +1,14 @@
+# Exact versions used for the numbers in results/ and README section 4.
+# Install with:  pip install -r requirements-lock.txt
+#
+# Verified on Windows 11 Pro, Python 3.14.5, CPU only (no CUDA).
+# The same code was also run on macOS (Apple Silicon, MPS); figures differ in the
+# last digit between the two because of floating-point ordering, not logic.
+torch==2.15.0
+transformers==5.22.2
+biopython==1.88
+scikit-learn==1.9.1
+pandas==3.0.6
+numpy==2.5.3
+matplotlib==3.11.2
+rapidfuzz==3.14.6

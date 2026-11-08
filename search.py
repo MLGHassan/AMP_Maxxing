@@ -11,8 +11,8 @@ Usage      : python search.py --scorer checkpoints/scorer_esm_attn_hard_s0.pt --
 import argparse, math, os, random
 import numpy as np, pandas as pd
 from Bio.Align import substitution_matrices
-from common import (AA, EISENBERG, read_fasta, write_fasta, net_charge, hydrophobicity,
-                    hydrophobic_moment, levenshtein_nearest)
+from common import (AA, ENC, EISENBERG, read_fasta, write_fasta, net_charge, hydrophobicity,
+                    hydrophobic_moment, levenshtein_nearest, identity_nearest, make_aligner)
 
 B62 = substitution_matrices.load("BLOSUM62")
 
@@ -76,21 +76,26 @@ if __name__ == "__main__":
     print(f"{len(seeds)} eligible plant seeds")
     rng.shuffle(seeds); seeds = seeds[:a.n_seeds]
     train_pos = pd.read_csv(a.data, sep="\t").query("label == 1").seq.tolist()
+    al = make_aligner()
     rows = []
     for h, seed_seq in seeds:
         top, p0 = anneal(seed_seq, scorer, rng, a.steps, max_mut=a.max_mut, top_k=a.top_k)
         for s, f, p in top:
             d, nn_ = levenshtein_nearest(s, train_pos)
+            ident, ident_hit = identity_nearest(s, train_pos, al)
             rows.append(dict(seed_id=h.split("|")[0], species=h.split("|")[-1].replace("_", " "), seed_seq=seed_seq,
                              seq=s, n_mut=sum(x != y for x, y in zip(s, seed_seq)), seed_scorer_p=p0, scorer_p=p,
                              fitness=f, charge=net_charge(s), hydrophobicity=hydrophobicity(s),
-                             hydrophobic_moment=hydrophobic_moment(s), edit_dist_nearest_known=d, nearest_known=nn_))
+                             hydrophobic_moment=hydrophobic_moment(s), edit_dist_nearest_known=d,
+                             pct_identity_nearest_known=round(100 * ident, 1),
+                             nearest_known=nn_, nearest_by_identity=ident_hit))
         print(f"{h[:40]:40s} {seed_seq} -> {top[0][0]}  P {p0:.2f} -> {top[0][2]:.2f}" if top else h)
     df = pd.DataFrame(rows).sort_values("fitness", ascending=False).reset_index(drop=True)
     df.insert(0, "cand_id", [f"DeepAMP_{i+1:03d}" for i in range(len(df))])
-    os.makedirs("outputs", exist_ok=True)
-    df.to_csv("outputs/candidates.csv", index=False)
+    os.makedirs("outputs", exist_ok=True); os.makedirs("results", exist_ok=True)
+    df.to_csv("outputs/candidates.csv", index=False, lineterminator="\n", encoding=ENC)
     write_fasta("outputs/candidates.fasta", [(f"{r.cand_id}|seed={r.seed_id}|{r.species}|scorerP={r.scorer_p:.3f}|"
-                f"charge={r.charge:.1f}|uH={r.hydrophobic_moment:.2f}|dist={r.edit_dist_nearest_known}", r.seq)
+                f"charge={r.charge:.1f}|uH={r.hydrophobic_moment:.2f}|dist={r.edit_dist_nearest_known}|"
+                f"id={r.pct_identity_nearest_known}pct", r.seq)
                 for r in df.itertuples()])
     print(f"wrote {len(df)} candidates -> outputs/candidates.csv, outputs/candidates.fasta")

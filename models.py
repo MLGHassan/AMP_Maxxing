@@ -14,7 +14,8 @@ class MeanHead(nn.Module):
         return self.mlp((H * m).sum(1) / m.sum(1).clamp(min=1))
 
 
-class AttnHead(nn.Module):
+class AttnHead1(nn.Module):
+    """Single-head additive attention pooling (kept as an ablation of MultiAttnHead)."""
     def __init__(self, d=320, h=64, p=0.2):
         super().__init__()
         self.att = nn.Sequential(nn.Linear(d, h), nn.Tanh(), nn.Linear(h, 1))
@@ -24,6 +25,27 @@ class AttnHead(nn.Module):
         s = self.att(H).masked_fill(~M.unsqueeze(-1), -1e4)
         w = torch.softmax(s, dim=1)
         return self.mlp((w * H).sum(1))
+
+
+class MultiAttnHead(nn.Module):
+    """Rung 4 of the proposal: MULTI-HEAD attention pooling instead of mean pooling.
+
+    `heads` independent attention distributions are learned over the residue
+    positions; each pools the frozen ESM-2 states into its own summary vector and
+    the concatenation is classified.  One head can only express a single weighted
+    average, which is what makes it a strict generalisation of rung 3.
+    """
+    def __init__(self, d=320, h=64, p=0.2, heads=4):
+        super().__init__()
+        self.heads = heads
+        self.att = nn.Sequential(nn.Linear(d, h), nn.Tanh(), nn.Linear(h, heads))
+        self.mlp = nn.Sequential(nn.Linear(d * heads, h), nn.ReLU(), nn.Dropout(p), nn.Linear(h, 1))
+
+    def forward(self, H, M):
+        s = self.att(H).masked_fill(~M.unsqueeze(-1), -1e4)      # [B, T, heads]
+        w = torch.softmax(s, dim=1)
+        pooled = torch.einsum("btk,btd->bkd", w, H)              # [B, heads, D]
+        return self.mlp(pooled.flatten(1))
 
 
 class CNNBiLSTM(nn.Module):
@@ -49,7 +71,10 @@ def encode_ids(seqs):
     return X
 
 
-HEADS = {"esm_attn": AttnHead, "esm_mean": MeanHead, "cnn_lstm": CNNBiLSTM}
+HEADS = {"esm_attn": MultiAttnHead,     # rung 4: multi-head attention pooling
+         "esm_attn1h": AttnHead1,       #   ablation: the same with one head
+         "esm_mean": MeanHead,          # rung 3: mean pooling
+         "cnn_lstm": CNNBiLSTM}         # rung 2: Veltri-style CNN-BiLSTM
 
 
 class Scorer:
@@ -72,7 +97,7 @@ class Scorer:
 
 
 def load_scorer(path, embedder=None, device="cpu"):
-    ck = torch.load(path, map_location=device)
+    ck = torch.load(path, map_location=device, weights_only=True)
     head = HEADS[ck["kind"]]()
     head.load_state_dict(ck["state_dict"])
     return Scorer(ck["kind"], head, embedder, ck["threshold"], device)

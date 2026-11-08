@@ -1,13 +1,49 @@
 {
-  "n_pos_unique": 1026,
+  "n_uniprot_pos_fetched": 1133,
+  "n_uniprot_pos_kept": 997,
+  "n_uniprot_pos_dropped": 136,
+  "uniprot_drop_reasons": {
+    "d_amino_acid": 8,
+    "non_standard_residue": 49,
+    "thioether_bond": 15,
+    "cyclic_backbone": 7,
+    "duplicate_sequence": 57
+  },
+  "n_external_pos_added": 5684,
+  "n_external_pos_duplicate_of_uniprot": 942,
+  "n_pos_kept": 6681,
+  "n_pos_flagged": 4228,
   "n_neg_proteins": 3990,
-  "n_neg_random": 1026,
-  "n_neg_hard": 1026,
-  "n_pos_unmatched_in_hard": 0,
+  "n_neg_random": 6681,
+  "n_neg_hard": 6654,
+  "n_pos_unmatched_in_hard": 27,
+  "peptide_len_matching": "exact",
+  "n_neg_peptide": 4271,
+  "n_pos_unmatched_in_peptide": 2410,
+  "n_pos_in_peptide_set": 4271,
+  "dramp_rows": 12784,
+  "dramp_kept": 6626,
+  "dramp_dropped": 6158,
+  "dramp_drop_reasons": {
+    "cyclic_backbone": 780,
+    "length_out_of_range": 1942,
+    "d_amino_acid": 249,
+    "non_standard_residue": 1795,
+    "not_antibacterial": 1131,
+    "chemical_label": 257,
+    "branched_backbone": 4
+  },
+  "dramp_plant": 114,
   "uniprot_release": "2026_04",
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "pos_query": "(keyword:KW-0929 OR keyword:KW-0044) AND (reviewed:true) AND (length:[10 TO 50])",
   "neg_query": "(reviewed:true) AND (length:[100 TO 600]) AND (cc_scl_term:SL-0086) AND NOT (keyword:KW-0929) AND NOT (keyword:KW-0044) AND NOT (keyword:KW-0964)",
-  "n_plant_seeds": 119,
-  "license": "UniProt: CC BY 4.0"
+  "pep_neg_query": "(reviewed:true) AND (length:[10 TO 50]) AND NOT (keyword:KW-0929) AND NOT (keyword:KW-0044)",
+  "n_plant_seeds": 142,
+  "n_positives_total": 6681,
+  "positives_by_source": {
+    "dramp3": 5684,
+    "uniprot_pos": 997
+  },
+  "license": "UniProt: CC BY 4.0; DRAMP 3.0: free for academic use, not redistributed here"
 }

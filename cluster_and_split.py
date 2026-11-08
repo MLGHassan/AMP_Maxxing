@@ -11,45 +11,38 @@ Output: data/processed/dataset.tsv (sequences.tsv + cluster + group columns)
 """
 import argparse, os, shutil, subprocess, tempfile
 import numpy as np, pandas as pd
-from Bio import Align
-from Bio.Align import substitution_matrices
-from common import write_fasta
+from common import write_fasta, make_aligner, alignment_identity as identity_of
 
-
-def _aligner():
-    al = Align.PairwiseAligner()
-    al.mode = "local"
-    al.match_score, al.mismatch_score = 1.0, -1.0
-    al.open_gap_score, al.extend_gap_score = -3.0, -1.0
-    return al
+# backwards-compatible aliases (the aligner now lives in common.py so that
+# search / candidate novelty can report the same identity measure)
+_aligner = make_aligner
 
 
 def identity(al, a, b):
     """identical aligned residues / length of the shorter sequence."""
-    if len(a) < len(b):
-        a, b = b, a
-    if al.score(a, b) < 0.25 * len(b):      # cheap reject: cannot reach the threshold
-        return 0.0
-    aln = al.align(a, b)[0]
-    m = 0
-    for (s1, e1), (s2, e2) in zip(*aln.aligned):
-        m += sum(x == y for x, y in zip(a[s1:e1], b[s2:e2]))
-    return m / len(b)
+    return identity_of(al, a, b)
 
 
 def greedy_cluster(seqs, thr=0.40):
-    al = _aligner()
+    """Greedy longest-first clustering at `thr` identity (CD-HIT's definition).
+
+    About a minute for a few thousand peptides: most candidate pairs are thrown
+    out by the cheap score bound inside `alignment_identity` before the
+    traceback is ever computed.
+    """
+    al = make_aligner()
     order = sorted(range(len(seqs)), key=lambda i: -len(seqs[i]))
     reps, cid = [], [-1] * len(seqs)
     for n, i in enumerate(order):
         s = seqs[i]
         for c, r in enumerate(reps):
-            if identity(al, seqs[r], s) >= thr:
+            if identity_of(al, seqs[r], s) >= thr:
                 cid[i] = c; break
         else:
             reps.append(i); cid[i] = len(reps) - 1
         if n % 500 == 0:
             print(f"  clustered {n}/{len(seqs)} ({len(reps)} clusters)", flush=True)
+    print(f"  done: {len(seqs)} sequences, {len(reps)} clusters", flush=True)
     return cid
 
 
@@ -61,7 +54,7 @@ def cdhit_cluster(seqs, thr=0.40):
         subprocess.run(["cd-hit", "-i", fa, "-o", out, "-c", str(thr), "-n", str(word),
                         "-d", "0", "-M", "4000", "-l", "5"], check=True, stdout=subprocess.DEVNULL)
         cid, cur = [-1] * len(seqs), -1
-        for line in open(out + ".clstr"):
+        for line in open(out + ".clstr", encoding="utf-8"):
             if line.startswith(">Cluster"):
                 cur = int(line.split()[1])
             else:
@@ -97,7 +90,7 @@ if __name__ == "__main__":
     print("Clustering with", "CD-HIT" if use_cd else "built-in greedy (slower)", f"at {a.identity:.0%} identity")
     df["cluster"] = cdhit_cluster(seqs, a.identity) if use_cd else greedy_cluster(seqs, a.identity)
     df["group"] = assign_groups(df, a.seed)
-    df.to_csv(a.out, sep="\t", index=False)
+    df.to_csv(a.out, sep="\t", index=False, lineterminator="\n", encoding="utf-8")
     sizes = df.cluster.value_counts()
     print(f"{df.cluster.nunique()} clusters; largest = {sizes.iloc[0]} seqs; singletons = {(sizes == 1).sum()}")
     print(df.groupby(["group", "label"]).size().unstack(fill_value=0))

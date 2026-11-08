@@ -23,7 +23,8 @@ class EsmEmbedder:
         for p in self.model.parameters():
             p.requires_grad = False
         self.cache_path = cache_path
-        self.cache = torch.load(cache_path) if cache_path and os.path.exists(cache_path) else {}
+        self.cache = (torch.load(cache_path, weights_only=True)
+                      if cache_path and os.path.exists(cache_path) else {})
         self.dim = self.model.config.hidden_size
 
     @torch.no_grad()
