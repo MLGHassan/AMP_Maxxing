@@ -1,240 +1,240 @@
->DeepAMP_001|seed=P56872|Psychotria longipes|scorerP=0.651|charge=2.8|uH=0.14|dist=5
-SIPIGEGCVFIPCCVKALLGCSCKSKCCYKN
->DeepAMP_002|seed=P56872|Psychotria longipes|scorerP=0.649|charge=2.8|uH=0.14|dist=5
-SIPVGEGCVFIPCCVKALLGCSCKSKCCYKN
->DeepAMP_003|seed=P56872|Psychotria longipes|scorerP=0.644|charge=2.8|uH=0.13|dist=5
-SIPAGEGCVFIPCCVKALLGCSCKSKCCYKN
->DeepAMP_004|seed=C0HJS7|Clitoria ternatea|scorerP=0.634|charge=2.8|uH=0.29|dist=5
-ISAIKCGISCLLGKCYTPGCTCDRSIDKKN
->DeepAMP_005|seed=C0HJS7|Clitoria ternatea|scorerP=0.633|charge=2.8|uH=0.29|dist=5
-ISAIKCGISCLLGKCYTPGCTCDRTIDKKN
->DeepAMP_006|seed=C0HJS7|Clitoria ternatea|scorerP=0.633|charge=5.8|uH=0.26|dist=5
-WSAIKCGVSCLLGKCYTPGCTCDRKIKKKN
->DeepAMP_007|seed=C0HJU5|Stellaria media|scorerP=0.632|charge=2.0|uH=0.17|dist=5
-VCPGGECGGRFGGGAGFQCCSRFGFCGSFPKYCYH
->DeepAMP_008|seed=P85484|Pinus halepensis|scorerP=0.636|charge=2.0|uH=0.24|dist=5
-FAGIVKQAIAGFGWK
->DeepAMP_009|seed=P81570|Spinacia oleracea|scorerP=0.631|charge=3.9|uH=0.35|dist=5
-GGFISTLCKTVSKTCRGICTRNANC
->DeepAMP_010|seed=C0HJU5|Stellaria media|scorerP=0.628|charge=2.0|uH=0.18|dist=5
-VCPGGECGGRFGGFAGFQCCSRFGFCGSNPKYCFH
->DeepAMP_011|seed=P0DKH8|Fagopyrum esculentum|scorerP=0.628|charge=2.8|uH=0.05|dist=5
-AQCGAQGGGAKCPGGCGCSQWGWCGSTPKYAGAGCGSNCR
->DeepAMP_012|seed=P81570|Spinacia oleracea|scorerP=0.627|charge=3.9|uH=0.37|dist=5
-GGFISNLCKTVSKTCRGICTRNANC
->DeepAMP_013|seed=P85484|Pinus halepensis|scorerP=0.631|charge=2.0|uH=0.24|dist=5
-FAGVVKQAIAGFGWK
->DeepAMP_014|seed=P81570|Spinacia oleracea|scorerP=0.627|charge=3.9|uH=0.36|dist=5
-GGFISTICKTVSKTCRGICTRNANC
->DeepAMP_015|seed=C0HJU5|Stellaria media|scorerP=0.626|charge=2.0|uH=0.17|dist=5
-VCPGGECGGRFGGGAGFQCCSRFGFCGSYPKYCYH
->DeepAMP_016|seed=P0DKH8|Fagopyrum esculentum|scorerP=0.622|charge=2.8|uH=0.03|dist=5
-AQCGAQGGGAKCPGGCSCSQWGWCGSTPKYAGAGCGSNCR
->DeepAMP_017|seed=P85484|Pinus halepensis|scorerP=0.625|charge=2.0|uH=0.20|dist=5
-FAGIVKQAGAGFGWK
->DeepAMP_018|seed=P0DKH8|Fagopyrum esculentum|scorerP=0.620|charge=3.8|uH=0.01|dist=5
-AQCGAQGGGAKCPGGMGCSQWGWCGSTPKYKGAGCGSNCR
->DeepAMP_019|seed=C0HJS2|Clitoria ternatea|scorerP=0.619|charge=4.8|uH=0.30|dist=5
-GLPICGETCKKLKCALKGCSCSLPVCKRN
->DeepAMP_020|seed=P0DKH7|Fagopyrum esculentum|scorerP=0.619|charge=2.8|uH=0.11|dist=5
-AQCGAQQGGATGPKGLCCSQWGWCGSTPKMCGGGCQSNCK
->DeepAMP_021|seed=C0HJH9|Nigella sativa|scorerP=0.618|charge=5.7|uH=0.17|dist=5
-MSCCKNMLGRNCYNTCCFMKKQNKTCSGLCGCKIS
->DeepAMP_022|seed=P0DKH7|Fagopyrum esculentum|scorerP=0.618|charge=2.8|uH=0.06|dist=5
-AQCGAQKGGATQPAGLCCSQWGWCGSTPKGCGSGCQSNCK
->DeepAMP_023|seed=C0HJS2|Clitoria ternatea|scorerP=0.617|charge=4.8|uH=0.29|dist=5
-GLPICGETCKKLKCCLKGCSCSLPVCKRN
->DeepAMP_024|seed=C0HJH9|Nigella sativa|scorerP=0.616|charge=7.7|uH=0.18|dist=5
-LSCCKNKLGRNCFNTCCFMKKPKKTCSGLCGCKIS
->DeepAMP_025|seed=C0HJS2|Clitoria ternatea|scorerP=0.616|charge=4.8|uH=0.31|dist=5
-GLPICGETCKKLKCAIKGCSCSLPVCKRN
->DeepAMP_026|seed=P0DKH7|Fagopyrum esculentum|scorerP=0.615|charge=3.8|uH=0.09|dist=5
-AQCGAQKGGATQPKGLCCSQWGWCGSTPKGCGVGCQSNCK
->DeepAMP_027|seed=C0HJH9|Nigella sativa|scorerP=0.614|charge=7.7|uH=0.19|dist=5
-LSCCKNKLGRNCVNTCCFMKKPKKTCSGLCGCKIS
->DeepAMP_028|seed=P81591|Ipomoea nil|scorerP=0.612|charge=2.8|uH=0.08|dist=5
-QQCGRQASGRLCGNFLCGSQWGYCGSTLSYLGACCQSQCRS
->DeepAMP_029|seed=P81591|Ipomoea nil|scorerP=0.610|charge=2.8|uH=0.08|dist=5
-QQCGRQASGRLCGNILCGSQWGYCGSTLSYLGACCQSQCRS
->DeepAMP_030|seed=P81591|Ipomoea nil|scorerP=0.604|charge=2.8|uH=0.08|dist=5
-QQCGRQASGRLCGNYLCGSQWGYCGSTLSYLGACCQSQCRS
->DeepAMP_031|seed=C0HLV5|Moringa oleifera|scorerP=0.602|charge=2.8|uH=0.14|dist=5
-NGKCCSQYGKCGTTRAQCSQANGCQSNC
->DeepAMP_032|seed=C0HLV5|Moringa oleifera|scorerP=0.599|charge=2.0|uH=0.10|dist=5
-NGGCCSQAGKCGTTAAHCSRANGCQSNC
->DeepAMP_033|seed=C0HLV5|Moringa oleifera|scorerP=0.599|charge=2.0|uH=0.14|dist=5
-NGKCCSQYGKCGTTQAHCSQANGCQSNC
->DeepAMP_034|seed=P86521|Leymus arenarius|scorerP=0.596|charge=4.7|uH=0.11|dist=4
-GNKCGKQGRGAKCPNCLCCGQYGFCGSTPDYCGVGCQSQCRGCR
->DeepAMP_035|seed=P83597|Eucommia ulmoides|scorerP=0.591|charge=3.6|uH=0.13|dist=5
-QTCASCCPRPCNAGLCISIYGYCGSGAAYCGAYCCRCQCRR
->DeepAMP_036|seed=P86521|Leymus arenarius|scorerP=0.590|charge=4.7|uH=0.13|dist=2
-AQKCGKQGRGAKCPNCLCCGPYGFCGSTPDYCGVGCQSQCRGCR
->DeepAMP_037|seed=P83597|Eucommia ulmoides|scorerP=0.588|charge=3.6|uH=0.11|dist=5
-QTCASCCPRPCNAGLCISIYGYCGSGAAYCGAYCCRCQCRK
->DeepAMP_038|seed=P83596|Eucommia ulmoides|scorerP=0.588|charge=4.7|uH=0.08|dist=5
-QTCASRCPRPCNAALCCSYYGYYGSGNRYCGAGSCRCQCRG
->DeepAMP_039|seed=P83596|Eucommia ulmoides|scorerP=0.587|charge=5.7|uH=0.12|dist=5
-QTCASRCPRPCNAALCCSYYGYYGSGNRYCGAGRCRCQCRG
->DeepAMP_040|seed=P83596|Eucommia ulmoides|scorerP=0.587|charge=3.7|uH=0.05|dist=5
-QTCASRCPRPCNAGLCCCLYGYWGSGNSYCGAGWCRCQCRG
->DeepAMP_041|seed=P86521|Leymus arenarius|scorerP=0.587|charge=5.7|uH=0.07|dist=1
-AQKCGKQGRGAKCPNCLCCGRYGFCGSTPDYCGVGCQSQCRGCR
->DeepAMP_042|seed=P83597|Eucommia ulmoides|scorerP=0.586|charge=2.7|uH=0.08|dist=5
-QTCASCCPRPYNAGLCYSIYGYCGSGAAYCGAANCRCQCRQ
->DeepAMP_043|seed=P83186|Basella alba|scorerP=0.581|charge=2.9|uH=0.16|dist=5
-GAAFQEMMKMHSQKHHKHQG
->DeepAMP_044|seed=P83186|Basella alba|scorerP=0.580|charge=3.9|uH=0.19|dist=5
-GAKFQEMMKMHSQKHHKHQG
->DeepAMP_045|seed=P83186|Basella alba|scorerP=0.579|charge=3.2|uH=0.19|dist=5
-GAAFQEMMKHHSQKHHKHQG
->DeepAMP_046|seed=P20159|Triticum aestivum|scorerP=0.574|charge=5.7|uH=0.06|dist=5
-KGCRQRSAGFKGPCVSQKCCAQVCQQEGWGGGNCDGPFMRCKCIRQC
->DeepAMP_047|seed=P20159|Triticum aestivum|scorerP=0.573|charge=6.7|uH=0.09|dist=5
-KGCRQRSAGFKGPCVSCKPCAQVCKQEGWGGGNCDGPFGRCKCIRQC
->DeepAMP_048|seed=P20159|Triticum aestivum|scorerP=0.570|charge=6.7|uH=0.10|dist=5
-KGCRQRSAGFKGPCVSFKPCAQVCKQEGWGGGNCDGPFGRCKCIRQC
->DeepAMP_049|seed=P21924|Sorghum bicolor|scorerP=0.566|charge=4.8|uH=0.09|dist=5
-RVCMGKFANFKGLCMRNQNCAQVCLQEGWNGGNCDGVMRQAKCIRQCW
->DeepAMP_050|seed=P21924|Sorghum bicolor|scorerP=0.564|charge=4.8|uH=0.04|dist=5
-RVCMGKQANFKGLCMRGQNCAQVCLQEGWNGGNCDGVMRQAKCIRQCW
->DeepAMP_051|seed=P21924|Sorghum bicolor|scorerP=0.563|charge=4.8|uH=0.08|dist=5
-RVCMGKFANFKGLCMRGQNCAQVCLQEGWNGGNCDGVMRQAKCIRQCW
->DeepAMP_052|seed=C0HLV3|Moringa oleifera|scorerP=0.557|charge=2.8|uH=0.18|dist=4
-NRLCCSNYGFCGKTSCYCGRVSGCQS
->DeepAMP_053|seed=Q09198|Sorghum bicolor|scorerP=0.556|charge=4.0|uH=0.10|dist=5
-RVMRRRSAGFCGLCMSDHNCAQQCLQEGWGGGNCYGVMRQCNCIRQC
->DeepAMP_054|seed=P21925|Sorghum bicolor|scorerP=0.555|charge=4.9|uH=0.07|dist=5
-RVCRRRSACFKGLCMQDHNCAQVCLQEGWCGGNCQGVIRQCACIRQC
->DeepAMP_055|seed=C0HLV3|Moringa oleifera|scorerP=0.555|charge=2.8|uH=0.17|dist=3
-NRLCCSQYGFCGKTSCYCGRVSGCQS
->DeepAMP_056|seed=C0HLV3|Moringa oleifera|scorerP=0.554|charge=2.8|uH=0.19|dist=4
-NRLCCSQYGFCGKTSCYCGRVSGCQA
->DeepAMP_057|seed=Q09198|Sorghum bicolor|scorerP=0.552|charge=4.0|uH=0.10|dist=5
-RMGRRRSAGFCGLCMSDHNCAQKCLQEGWGGGNCDGVMRQCNCIRQC
->DeepAMP_058|seed=C0HLV4|Moringa oleifera|scorerP=0.550|charge=2.8|uH=0.21|dist=5
-NKLCCSQYKFQGTCSQYCNRANGCQSN
->DeepAMP_059|seed=Q09198|Sorghum bicolor|scorerP=0.549|charge=3.0|uH=0.06|dist=5
-RNCRRRSAGFQGLCMSDHNCAQVCGQEGWNGGNCDGVMRQCQCIRQC
->DeepAMP_060|seed=C0HLV4|Moringa oleifera|scorerP=0.549|charge=2.8|uH=0.21|dist=5
-NKLCCSQYKFQGTCSQYCQRANGCQSN
->DeepAMP_061|seed=P21925|Sorghum bicolor|scorerP=0.549|charge=4.9|uH=0.08|dist=5
-RVCRRRSAWFKGLCMQDHNCAQVCLQEGWCGGNCQGVIRQCACIRQC
->DeepAMP_062|seed=C0HLV4|Moringa oleifera|scorerP=0.549|charge=2.8|uH=0.21|dist=5
-NKLCCSQYKFNGTCSQYCNRANGCQSN
->DeepAMP_063|seed=P20230|Hordeum vulgare|scorerP=0.548|charge=7.8|uH=0.05|dist=5
-RICRRRSAGFKGPCVSNKNCQQVQMQEGWKGGNCDGPLDRCKCGRRC
->DeepAMP_064|seed=P20230|Hordeum vulgare|scorerP=0.548|charge=8.7|uH=0.10|dist=5
-RICRRRSAGFKGPCVSNKNCCQVNMQEGWKGGNCDGPLGRCKCGRRC
->DeepAMP_065|seed=P20230|Hordeum vulgare|scorerP=0.548|charge=8.8|uH=0.05|dist=5
-RICRRRSAGFKGPCVSNKNCQQVQMQEGWKGGNCDGPLNRCKCGRRC
->DeepAMP_066|seed=P21925|Sorghum bicolor|scorerP=0.545|charge=4.9|uH=0.07|dist=5
-RVCRRRSAYFKGLCMQDHNCAQVCLQEGWCGGNCQGVIRQCACIRQC
->DeepAMP_067|seed=P69240|Brassica napus|scorerP=0.542|charge=4.1|uH=0.14|dist=5
-QKLCERPSGMGSGVCGNNNACKNQCINLEKARGGMCNNVFPAHK
->DeepAMP_068|seed=P69240|Brassica napus|scorerP=0.541|charge=4.1|uH=0.15|dist=5
-QKLCERPSGMGSGVCGNNNACKNQCINLEKARNGMCNNVFPAHK
->DeepAMP_069|seed=P69240|Brassica napus|scorerP=0.540|charge=4.1|uH=0.13|dist=5
-QKLCERPSGVGSGVCGNNNACKNQCINLEKARQGNCNPVFPAHK
->DeepAMP_070|seed=C0HM23|Nigella sativa|scorerP=0.537|charge=5.2|uH=0.04|dist=5
-KFCERQSGTWAGVCGNNGKCKGQCCCLEKAKHGSCKYKFPAHACVCYYEC
->DeepAMP_071|seed=P84813|Solanum tuberosum|scorerP=0.537|charge=3.0|uH=0.04|dist=4
-DICTKCCAGTKGCNTTSANVAFICEGKSDPKKPKACKLNCDPHIAYA
->DeepAMP_072|seed=Q7M1F3|Aesculus hippocastanum|scorerP=0.537|charge=2.5|uH=0.11|dist=5
-LCNERPSQTWGGNCGCTAHCDKQWNDWEKASKGACHKRENHWKCFCYFNC
->DeepAMP_073|seed=P84813|Solanum tuberosum|scorerP=0.536|charge=3.0|uH=0.05|dist=5
-DICTKCCAGTKGCNTTSANVAFICEGKSDPKKPKACKLNCDPHIVYA
->DeepAMP_074|seed=Q7M1F3|Aesculus hippocastanum|scorerP=0.536|charge=2.5|uH=0.10|dist=5
-LCNERPSQTWGGNCGCTAHCDKQWSDWEKASKGACHKRENHWKCFCYFNC
->DeepAMP_075|seed=P86896|Lippia origanoides|scorerP=0.548|charge=1.9|uH=0.13|dist=5
-SPPEAKYGPGNKKSDCGCK
->DeepAMP_076|seed=P84813|Solanum tuberosum|scorerP=0.532|charge=2.0|uH=0.07|dist=5
-DICTKCCAGTKGCNTTSANVAFICEGSSDPKKPKACKLNCDPHIVYA
->DeepAMP_077|seed=P81930|Pisum sativum|scorerP=0.532|charge=6.2|uH=0.25|dist=5
-KTCERLIGTFKGCCIPWGNCNKHCRNNEHLLSGRCRDDFRCWCRNRC
->DeepAMP_078|seed=P81930|Pisum sativum|scorerP=0.531|charge=5.2|uH=0.18|dist=5
-KTCEKLFGTFKGCCIPLGNCNKHCRNNEHLLSGRCRDDFRCWCGNRC
->DeepAMP_079|seed=Q7M1F3|Aesculus hippocastanum|scorerP=0.531|charge=2.5|uH=0.12|dist=4
-LCNERPSQTWSGNCGCTAHCDKQWNDWEKASKGACHKRENHWKCFCYFNC
->DeepAMP_080|seed=P81930|Pisum sativum|scorerP=0.531|charge=6.2|uH=0.25|dist=5
-KTCERLMGTFKGCCIPFGNCNKHCRNNEHLLSGRCRDDFRCWCRNRC
->DeepAMP_081|seed=C0HM23|Nigella sativa|scorerP=0.530|charge=5.2|uH=0.05|dist=5
-KFCERQSGTWAGVCGNNGKCKFQCCCLEKAKHGSCKYKFPAHACVCYYEC
->DeepAMP_082|seed=P86363|Calotropis procera|scorerP=0.527|charge=3.9|uH=0.08|dist=5
-ATFTIRNNCPYAIKAAAVKGGGRTLNSGGTWTINVSPGTA
->DeepAMP_083|seed=C0HM23|Nigella sativa|scorerP=0.527|charge=5.2|uH=0.02|dist=5
-KFCERQSGTWAGVCGNNGKCKGQCNCLEKAKHGSCKYKFPAHACVCYYEC
->DeepAMP_084|seed=P86363|Calotropis procera|scorerP=0.526|charge=3.9|uH=0.08|dist=5
-ATFTIRNNCPYAIKAAAVKGGGRGLNSGGTWTINVSPGTA
->DeepAMP_085|seed=P86363|Calotropis procera|scorerP=0.525|charge=3.9|uH=0.09|dist=5
-ATFTIRNNCPYPIKAAAVKGGGRTLNSGGTWTINVSPGTA
->DeepAMP_086|seed=B3EWQ2|Taraxacum officinale|scorerP=0.521|charge=3.8|uH=0.23|dist=5
-GGKYTVDYGGQGGGRRLKSPLKCCYKPTRICYLNQETCETTTCP
->DeepAMP_087|seed=B3EWQ2|Taraxacum officinale|scorerP=0.519|charge=3.8|uH=0.23|dist=5
-GGKYTVDYGGQGGGRRLKSPLKCCYKPTRICYLNQETCETVTCP
->DeepAMP_088|seed=P86973|Nigella sativa|scorerP=0.518|charge=3.0|uH=0.03|dist=5
-KFCEKPSVTWSGVCGNSGACKDQCIRKEGAKHGDCNYKLPADRCIKYYEC
->DeepAMP_089|seed=P86973|Nigella sativa|scorerP=0.518|charge=3.0|uH=0.02|dist=5
-KFCEKPSVTWSGVCGNSGACKDQCIRAEGAKHGNCNYKLPAERCIKYYEC
->DeepAMP_090|seed=P86973|Nigella sativa|scorerP=0.517|charge=3.0|uH=0.03|dist=5
-KFCEKPSYTWSGVCGNSGACKDQCIRKEGAKHGDCNYKLPADRCIKYYEC
->DeepAMP_091|seed=P86972|Nigella sativa|scorerP=0.517|charge=6.2|uH=0.03|dist=4
-KFCEKPSGKFSGVCGNSGACKDQKIRLEGAKHGSCNYKPKAHRCICYYEC
->DeepAMP_092|seed=P86972|Nigella sativa|scorerP=0.516|charge=5.3|uH=0.01|dist=5
-KFGEKPSGKFSGVCGNSGACKDQKIRLEGAKHGSCNYKPNAHRCICYYEC
->DeepAMP_093|seed=B3EWQ2|Taraxacum officinale|scorerP=0.515|charge=2.8|uH=0.19|dist=5
-GGKYTVDYGGQGGGRRLASPLKCCYKPTRICYLNQETCETTTCP
->DeepAMP_094|seed=P86972|Nigella sativa|scorerP=0.515|charge=3.3|uH=0.04|dist=4
-KFGEKPSGMFSGVCGNSGACKDQQIRLEGAKHGSCNYKPPAHRCICYYEC
->DeepAMP_095|seed=P33044|Hordeum vulgare|scorerP=0.511|charge=2.9|uH=0.08|dist=5
-ASITVVNRCSYTVWPGALPGYGVRLDAGLRWALNMPAGTAGARV
->DeepAMP_096|seed=P33044|Hordeum vulgare|scorerP=0.510|charge=2.9|uH=0.08|dist=5
-ANITVVNRCSYTVWPGALPGWGVRLDAGLRWALNMPAGTAGARV
->DeepAMP_097|seed=P33044|Hordeum vulgare|scorerP=0.506|charge=3.9|uH=0.10|dist=4
-ATITVYNRCSYTVWPGALPGKGVRLDPGQRWALNMPAGTAGAKQ
->DeepAMP_098|seed=P81009|Zea mays|scorerP=0.494|charge=3.5|uH=0.03|dist=5
-RVCMGKSQHHSKPCISDRCCSNECVKEDGGWTAGYCHLRYCNCQKYN
->DeepAMP_099|seed=P81009|Zea mays|scorerP=0.493|charge=2.5|uH=0.03|dist=5
-RVCMGKSQHHSKPCISDRCCSNECVKEDGGWTAGYCHLRYCDCQKYN
->DeepAMP_100|seed=P81009|Zea mays|scorerP=0.489|charge=3.5|uH=0.09|dist=5
-RVCMGKSQHHSFPCISDRLKSNECYKEDGGWSAGYCHLPYCRCFKAC
->DeepAMP_101|seed=P86896|Lippia origanoides|scorerP=0.498|charge=1.9|uH=0.10|dist=5
-SPPEARYGPGNKKSDCGCK
->DeepAMP_102|seed=P86896|Lippia origanoides|scorerP=0.486|charge=1.9|uH=0.13|dist=5
-SPPEAKYGPGNKKSDCGGK
->DeepAMP_103|seed=P83630|Hydrangea macrophylla|scorerP=0.476|charge=3.0|uH=0.44|dist=5
-NSKEAVEWLRKKAQK
->DeepAMP_104|seed=P83630|Hydrangea macrophylla|scorerP=0.476|charge=3.0|uH=0.49|dist=5
-NSEEAVKWLRKKLQK
->DeepAMP_105|seed=P83630|Hydrangea macrophylla|scorerP=0.472|charge=3.0|uH=0.51|dist=5
-NSKEAVEWLRKKFQR
->DeepAMP_106|seed=P86548|Glycine max|scorerP=0.465|charge=2.0|uH=0.25|dist=5
-PNLKVFFDMTIGGQKAAKIVMEKYA
->DeepAMP_107|seed=P86548|Glycine max|scorerP=0.463|charge=2.0|uH=0.26|dist=5
-PNFKVFFDMTIGGQKAAKIVMEKYA
->DeepAMP_108|seed=P85102|Cullen corylifolium|scorerP=0.456|charge=3.0|uH=0.28|dist=5
-EWEKVQNGGSSYYRVKRTKA
->DeepAMP_109|seed=P86548|Glycine max|scorerP=0.456|charge=3.0|uH=0.27|dist=5
-PNKKVFFDMTIGGQRAAKIVMEKYA
->DeepAMP_110|seed=P85102|Cullen corylifolium|scorerP=0.454|charge=3.0|uH=0.40|dist=5
-EWEPVKNGGSSYYKVVRKKA
->DeepAMP_111|seed=P85102|Cullen corylifolium|scorerP=0.457|charge=2.0|uH=0.35|dist=5
-EWEPVKNGGSSYYKVVRTKA
->DeepAMP_112|seed=P86706|Cocos nucifera|scorerP=0.439|charge=2.0|uH=0.32|dist=5
-TASYMVKKVGL
->DeepAMP_113|seed=P86706|Cocos nucifera|scorerP=0.430|charge=2.0|uH=0.33|dist=5
-TASYWVKKVGL
->DeepAMP_114|seed=P86895|Lippia origanoides|scorerP=0.425|charge=2.0|uH=0.32|dist=5
-EALYNSEDLYKKTSKSKK
->DeepAMP_115|seed=P86706|Cocos nucifera|scorerP=0.421|charge=3.0|uH=0.43|dist=5
-TARYFVKKVGF
->DeepAMP_116|seed=P86930|Xanthosoma sagittifolium|scorerP=0.415|charge=2.0|uH=0.16|dist=5
-PVKDTTGNNKLKQQEEKKV
->DeepAMP_117|seed=P86895|Lippia origanoides|scorerP=0.412|charge=2.0|uH=0.36|dist=5
-EALYNSEDLYRKTSKSKK
->DeepAMP_118|seed=P86895|Lippia origanoides|scorerP=0.409|charge=2.0|uH=0.37|dist=5
-EALYNSEDLYKKTSRSKK
->DeepAMP_119|seed=P86930|Xanthosoma sagittifolium|scorerP=0.394|charge=2.0|uH=0.21|dist=5
-PVKDTTGNNRLKQQEEKKV
->DeepAMP_120|seed=P86930|Xanthosoma sagittifolium|scorerP=0.392|charge=2.0|uH=0.21|dist=5
-PVKDTTGNNKLKQQEERKV
+>DeepAMP_001|seed=P86528|Moringa oleifera|scorerP=1.000|charge=3.8|uH=0.47|dist=5|id=72.7pct
+CGAIQRICQQIRRIQPICRCCQ
+>DeepAMP_002|seed=P86528|Moringa oleifera|scorerP=1.000|charge=2.8|uH=0.35|dist=5|id=72.7pct
+CIQIQRMCQQLRNIQQICRCCQ
+>DeepAMP_003|seed=P86528|Moringa oleifera|scorerP=1.000|charge=3.8|uH=0.46|dist=5|id=72.7pct
+CGAIQRICQQIRRIQPYCRCCQ
+>DeepAMP_004|seed=P0DKH8|Fagopyrum esculentum|scorerP=1.000|charge=2.7|uH=0.07|dist=5|id=87.5pct
+AQCGAQGWGAWCPGKLCCSQWGWCGSTPKYCQCGCQSNCR
+>DeepAMP_005|seed=P84868|Vigna unguiculata subsp. sesquipedalis|scorerP=1.000|charge=2.9|uH=0.49|dist=5|id=50.0pct
+KCCKKLACGY
+>DeepAMP_006|seed=DRAMP00318|Pisum sativum (Garden pea)|scorerP=1.000|charge=3.8|uH=0.30|dist=5|id=78.3pct
+KQCGRQAKKATCGNNCCCSQYGY
+>DeepAMP_007|seed=Q7M1F3|Aesculus hippocastanum|scorerP=1.000|charge=2.6|uH=0.13|dist=5|id=84.0pct
+LCNERPSQTWSGNCGNTAHCDKQCSDWEKAWHGACHKRENHWKCCCKFCC
+>DeepAMP_008|seed=P83597|Eucommia ulmoides|scorerP=1.000|charge=3.6|uH=0.05|dist=5|id=87.8pct
+QTCASRCTRPCNACLCISIYGYCGCWAAYCGAGNCRCQCRG
+>DeepAMP_009|seed=P0DKH8|Fagopyrum esculentum|scorerP=1.000|charge=4.7|uH=0.16|dist=5|id=87.5pct
+KTCGAQGGGATCPGGKCCSQWGWCGKTPKYCGQGCQSNCR
+>DeepAMP_010|seed=DRAMP00318|Pisum sativum (Garden pea)|scorerP=1.000|charge=2.8|uH=0.28|dist=5|id=78.3pct
+KQCGRQASKATCYNNCCCSQYGY
+>DeepAMP_011|seed=P0DKH8|Fagopyrum esculentum|scorerP=1.000|charge=2.7|uH=0.08|dist=5|id=87.5pct
+AQCGAQGWGAWCPGKLCCSQWSWCGSTPKYCQAGCQSNCR
+>DeepAMP_012|seed=DRAMP00928|Viola cotyledon (Violeta)|scorerP=1.000|charge=2.0|uH=0.11|dist=5|id=83.9pct
+GSIWCAESCWYICCITGHAGCSCKNKVCKYN
+>DeepAMP_013|seed=Q7M1F3|Aesculus hippocastanum|scorerP=1.000|charge=2.7|uH=0.04|dist=5|id=84.0pct
+LCNERPSQTWSGNCGNTAHCDKQCMDWEKACHGACHKRENHWKCWCLFKC
+>DeepAMP_014|seed=DRAMP00318|Pisum sativum (Garden pea)|scorerP=1.000|charge=2.8|uH=0.28|dist=5|id=78.3pct
+QQCGRQAKKATCGNNCCCSQYGY
+>DeepAMP_015|seed=Q7M1F3|Aesculus hippocastanum|scorerP=0.999|charge=2.7|uH=0.04|dist=5|id=84.0pct
+LCNERPSQTWSGNCGNTAHCDKQCLDWEKACHGACHKRENHWKCWCLFKC
+>DeepAMP_016|seed=C0HJH9|Nigella sativa|scorerP=0.999|charge=6.8|uH=0.31|dist=5|id=85.7pct
+WSCCWNTWGRGCYNTCRFMKKPRKTCSGLCGNKIS
+>DeepAMP_017|seed=C0HJU5|Stellaria media|scorerP=0.999|charge=4.3|uH=0.25|dist=5|id=85.7pct
+VGLGGSCGGRFGGKFGGQCCSRFGHCGSGPKYCAH
+>DeepAMP_018|seed=P84868|Vigna unguiculata subsp. sesquipedalis|scorerP=0.999|charge=2.9|uH=0.49|dist=5|id=50.0pct
+KCCKKLACFY
+>DeepAMP_019|seed=P83597|Eucommia ulmoides|scorerP=0.999|charge=3.7|uH=0.06|dist=5|id=87.8pct
+QTCASRCQRPCNAALCVSIYGYCGCWAAYCGAGNCRCQCRG
+>DeepAMP_020|seed=P84868|Vigna unguiculata subsp. sesquipedalis|scorerP=0.999|charge=3.1|uH=0.49|dist=5|id=50.0pct
+KCCKKLACHY
+>DeepAMP_021|seed=P83597|Eucommia ulmoides|scorerP=0.999|charge=3.7|uH=0.06|dist=5|id=87.8pct
+QTCASRCTRPCNAALCISIYGYCGCWAAYCGAGNCRCQCRG
+>DeepAMP_022|seed=C0HJU5|Stellaria media|scorerP=0.999|charge=3.5|uH=0.22|dist=5|id=85.7pct
+VGLGGSCGGRFGGHFGGQCCSRFGHCGSGPKYCAH
+>DeepAMP_023|seed=P83187|Basella alba|scorerP=0.999|charge=3.0|uH=0.29|dist=5|id=68.8pct
+KILAWPFKFFEWLRGR
+>DeepAMP_024|seed=C0HJH9|Nigella sativa|scorerP=0.999|charge=6.8|uH=0.30|dist=5|id=85.7pct
+WSCCWNTWGRQCYNTCRFMKKPRKTCSGLCGNKIS
+>DeepAMP_025|seed=DRAMP01021|Leymus arenarius (Lyme grass) (Elymus arenarius)|scorerP=0.999|charge=3.7|uH=0.15|dist=5|id=88.4pct
+AQKCGEQGRGAKCGNCNCCGRYGFCGSYPDYCGVRCQSQWRGC
+>DeepAMP_026|seed=P83960|Benincasa hispida|scorerP=0.999|charge=3.2|uH=0.24|dist=5|id=74.1pct
+RCWWRRWFERRHNELRRELEQRREELL
+>DeepAMP_027|seed=P83187|Basella alba|scorerP=0.999|charge=3.0|uH=0.30|dist=5|id=68.8pct
+KIIAWPFKFFEWLRGR
+>DeepAMP_028|seed=C0HJU5|Stellaria media|scorerP=0.999|charge=4.0|uH=0.25|dist=5|id=85.7pct
+VGIGGCCGGRFGGRIGGQCCSRFGACGSGPKYCAH
+>DeepAMP_029|seed=DRAMP01021|Leymus arenarius (Lyme grass) (Elymus arenarius)|scorerP=0.999|charge=3.7|uH=0.15|dist=5|id=88.4pct
+AQKCGEQGRGAKCNNCNCCGRYGFCGSYPDYCGVRCQSQWRGC
+>DeepAMP_030|seed=P83960|Benincasa hispida|scorerP=0.999|charge=3.2|uH=0.22|dist=5|id=74.1pct
+RFWWRRWFERRHNELRREIEQRREELL
+>DeepAMP_031|seed=DRAMP01021|Leymus arenarius (Lyme grass) (Elymus arenarius)|scorerP=0.999|charge=2.7|uH=0.06|dist=5|id=88.4pct
+AQKCGEQGRGAKCYNSCCCGRYGFCGSTPDYCGVLCQSQCKGC
+>DeepAMP_032|seed=P83960|Benincasa hispida|scorerP=0.999|charge=3.2|uH=0.21|dist=5|id=74.1pct
+RFWWRRWFERRHNELRRELEQRREELL
+>DeepAMP_033|seed=C0HJH9|Nigella sativa|scorerP=0.999|charge=6.8|uH=0.31|dist=5|id=85.7pct
+LSCCLNTIGRNCYNTCRNMKKPRKTCSGLCGTKIS
+>DeepAMP_034|seed=DRAMP00928|Viola cotyledon (Violeta)|scorerP=0.999|charge=2.2|uH=0.13|dist=5|id=83.9pct
+GSIHCAESCWYICCITGHAGCSCKNKVCKYN
+>DeepAMP_035|seed=P83187|Basella alba|scorerP=0.999|charge=3.0|uH=0.30|dist=5|id=68.8pct
+KIIAWPVKFFEWLRGR
+>DeepAMP_036|seed=P86521|Leymus arenarius|scorerP=0.998|charge=3.6|uH=0.17|dist=5|id=88.6pct
+AQKCNECGRGAKCPNCLCCGRYGFCGSTPDRCDCGCQSQCRGCR
+>DeepAMP_037|seed=P85484|Pinus halepensis|scorerP=0.998|charge=3.2|uH=0.11|dist=5|id=40.0pct
+FSHSKNKCCSWFGWK
+>DeepAMP_038|seed=DRAMP00928|Viola cotyledon (Violeta)|scorerP=0.998|charge=2.0|uH=0.11|dist=5|id=83.9pct
+GSIHCAESCYYICCITGKAGCSCKNKVCAYN
+>DeepAMP_039|seed=P86521|Leymus arenarius|scorerP=0.998|charge=2.7|uH=0.05|dist=5|id=88.6pct
+AQKCNEQGRGAKCPGCLCCGRYGFCGSTPDCCGVGGQSQCYGCR
+>DeepAMP_040|seed=P86521|Leymus arenarius|scorerP=0.998|charge=3.7|uH=0.08|dist=5|id=88.6pct
+AQKCREQGRGAKCPGCLCCGRYGFCGSTPDCCGVGGQSQCYGCR
+>DeepAMP_041|seed=P84200|Gymnocladus chinensis|scorerP=0.998|charge=2.1|uH=0.35|dist=5|id=40.0pct
+KKCENKCCHY
+>DeepAMP_042|seed=P85484|Pinus halepensis|scorerP=0.998|charge=2.9|uH=0.10|dist=5|id=40.0pct
+FSGWIKQWCSGKGWK
+>DeepAMP_043|seed=P0C8Y4|Dahlia merckii|scorerP=0.998|charge=2.7|uH=0.05|dist=5|id=90.0pct
+ELCEKASKSWSGNCGNTGHCWNQCKSWEGAYHNACHVRNGKHMYFCYFNC
+>DeepAMP_044|seed=P0C8Y4|Dahlia merckii|scorerP=0.997|charge=2.5|uH=0.05|dist=5|id=90.0pct
+ELCEKASKVWSGNCGNTGHCWNQCKWWEGAAHGACHVRNGKPMQFCYFNC
+>DeepAMP_045|seed=DRAMP00312|Taxus baccata (English yew)|scorerP=0.997|charge=2.9|uH=0.40|dist=5|id=73.7pct
+TAGFGVIKWIINLGLKCGK
+>DeepAMP_046|seed=DRAMP00312|Taxus baccata (English yew)|scorerP=0.997|charge=2.1|uH=0.35|dist=5|id=73.7pct
+TAGFGVCQKIINCGLHCGK
+>DeepAMP_047|seed=P83141|Malva parviflora|scorerP=0.997|charge=3.0|uH=0.44|dist=5|id=60.0pct
+VAGIFWIPILRRIFK
+>DeepAMP_048|seed=P0C8Y4|Dahlia merckii|scorerP=0.997|charge=3.0|uH=0.04|dist=5|id=90.0pct
+ELCEKASKSWSGNCGNTGHCWNQCKSWEGAYHHACHVRNGKHMMFCYFNC
+>DeepAMP_049|seed=P84813|Solanum tuberosum|scorerP=0.997|charge=3.0|uH=0.10|dist=5|id=89.4pct
+DICTNCCAGTKGCKGTKANGAGICEGQSDPKKPKACPLNCNPHIAYA
+>DeepAMP_050|seed=P85484|Pinus halepensis|scorerP=0.997|charge=2.2|uH=0.14|dist=5|id=40.0pct
+FSGYHKQWCSGWGWK
+>DeepAMP_051|seed=DRAMP00312|Taxus baccata (English yew)|scorerP=0.996|charge=2.9|uH=0.47|dist=5|id=73.7pct
+TAGFGVIGKIINFGLRCGK
+>DeepAMP_052|seed=P83399|Vigna unguiculata|scorerP=0.996|charge=6.2|uH=0.14|dist=5|id=89.4pct
+RVCISQSHWFKGACTCDHNCALVCRNEGFSGGNCRRFRRCCFCTLKC
+>DeepAMP_053|seed=P83141|Malva parviflora|scorerP=0.996|charge=2.9|uH=0.40|dist=5|id=60.0pct
+VAGIFCIPILRRIFK
+>DeepAMP_054|seed=P84970|Triticum kiharae|scorerP=0.996|charge=2.7|uH=0.01|dist=5|id=88.9pct
+RDCKSDSHKFHGACFSDTNCANICQTEGFHRGKCDRIHCCCKKDC
+>DeepAMP_055|seed=P83399|Vigna unguiculata|scorerP=0.996|charge=6.2|uH=0.14|dist=5|id=89.4pct
+RVCVSQSHWFKGACTCDHNCALVCRNEGFSGGNCRRFRRCCFCTLKC
+>DeepAMP_056|seed=P84970|Triticum kiharae|scorerP=0.996|charge=2.7|uH=0.02|dist=5|id=88.9pct
+RDCKSDSHKFHGACFSDTNCANLCQTEGFHRGKCDRIHCCCKKDC
+>DeepAMP_057|seed=P84963|Triticum kiharae|scorerP=0.996|charge=2.4|uH=0.09|dist=5|id=89.8pct
+RTCISQCHKKKGACFSDTNCDCVCRTENFPRGQCNQHHVEWKCYCERDC
+>DeepAMP_058|seed=P84813|Solanum tuberosum|scorerP=0.996|charge=2.2|uH=0.07|dist=5|id=89.4pct
+DICTNCCAGTKGCHSTKANGAGICEGQSDPKKPKACPLNCNPHIAYA
+>DeepAMP_059|seed=P84813|Solanum tuberosum|scorerP=0.996|charge=3.0|uH=0.10|dist=5|id=89.4pct
+DICTNCCAGTKGCKATKANGAAICEGQSDPKKPKACPLNCNPHIAYA
+>DeepAMP_060|seed=P84970|Triticum kiharae|scorerP=0.996|charge=2.9|uH=0.06|dist=5|id=88.9pct
+HDCKSKSHKFHGACFSDTNCANVCQTEGFLRGKCDQIHCHCKKDC
+>DeepAMP_061|seed=P83399|Vigna unguiculata|scorerP=0.995|charge=6.2|uH=0.15|dist=5|id=89.4pct
+RVCVSQSHFFKGACTCDHNCALVCRNEGFSGGNCRRFRRCCFCTLKC
+>DeepAMP_062|seed=P83186|Basella alba|scorerP=0.995|charge=2.4|uH=0.27|dist=5|id=65.0pct
+GAKMQECMKEHWQKQWQHQK
+>DeepAMP_063|seed=P83141|Malva parviflora|scorerP=0.995|charge=4.0|uH=0.70|dist=5|id=60.0pct
+VAGKFIIPWLRRIFR
+>DeepAMP_064|seed=P84969|Triticum kiharae|scorerP=0.994|charge=2.2|uH=0.08|dist=5|id=89.1pct
+RECRSQSKQFVGRCVSDTNCASVCLTEHWCGGKCDGYCRCFCHKDC
+>DeepAMP_065|seed=P84969|Triticum kiharae|scorerP=0.994|charge=2.2|uH=0.10|dist=5|id=89.1pct
+RECKSQSKQFVGRCVSDTNCASVCLTEHFCGGKCDGYCRCFCHKDC
+>DeepAMP_066|seed=P84964|Triticum monococcum|scorerP=0.993|charge=3.4|uH=0.12|dist=5|id=89.8pct
+RTCQSQSHKFKGACFSWTNCAIVCRTENFPEGCCNQHHVERKCYCWRDC
+>DeepAMP_067|seed=P84969|Triticum kiharae|scorerP=0.993|charge=2.2|uH=0.07|dist=5|id=89.1pct
+RECRSQSKQFVGRCVSDTNCASVCLTEHQCGGKCDGYCRCFCHKDC
+>DeepAMP_068|seed=P84529|Brassica rapa subsp. chinensis|scorerP=0.993|charge=3.2|uH=0.44|dist=5|id=75.0pct
+PACPFRFPWHPFRPFTRPPI
+>DeepAMP_069|seed=P83186|Basella alba|scorerP=0.993|charge=2.4|uH=0.27|dist=5|id=65.0pct
+GAKMQECMKEHWQKQCQHQK
+>DeepAMP_070|seed=P84971|Triticum kiharae|scorerP=0.992|charge=4.2|uH=0.15|dist=5|id=88.9pct
+RDCTSQSHNFVGLCLSDRNCASWCLTKYFTWGKCDHRRGVCTKGC
+>DeepAMP_071|seed=P84529|Brassica rapa subsp. chinensis|scorerP=0.992|charge=3.2|uH=0.31|dist=5|id=75.0pct
+PAWPFRFPRHPFWPWTRPPI
+>DeepAMP_072|seed=P84963|Triticum kiharae|scorerP=0.992|charge=3.7|uH=0.08|dist=5|id=89.8pct
+RTCCSQSHKHKGACFSDTNCDIVCRTENFPRGQCNWHHVERKCYCNRDC
+>DeepAMP_073|seed=P84971|Triticum kiharae|scorerP=0.992|charge=4.2|uH=0.14|dist=5|id=88.9pct
+RDCTSQSHSFVGLCLSDRNCASWCLTKYFTWGKCDHRRGVCTKGC
+>DeepAMP_074|seed=P84963|Triticum kiharae|scorerP=0.992|charge=2.5|uH=0.09|dist=5|id=89.8pct
+RTCMSQWHKKKGACFSDTNCDIVCRTENFPRGQCNQHHVEWKCYCERDC
+>DeepAMP_075|seed=P84529|Brassica rapa subsp. chinensis|scorerP=0.992|charge=2.2|uH=0.28|dist=5|id=75.0pct
+PAYPFRFPWHPWPPPTRPPI
+>DeepAMP_076|seed=P83186|Basella alba|scorerP=0.991|charge=2.4|uH=0.30|dist=5|id=65.0pct
+GAKMQECMKEHWQKQWQHQR
+>DeepAMP_077|seed=P84971|Triticum kiharae|scorerP=0.991|charge=4.2|uH=0.13|dist=5|id=88.9pct
+RDCTSQSHNFVGLCLSDRNCASWCLTKYFTWGKCDHRRSVCTKGC
+>DeepAMP_078|seed=P84964|Triticum monococcum|scorerP=0.991|charge=3.4|uH=0.16|dist=5|id=89.8pct
+RTCQSQSHKFKGACFSFTNCAQVCRTENFPEGCCNQHHVERKCYCWRDC
+>DeepAMP_079|seed=P83988|Cicer arietinum|scorerP=0.994|charge=2.0|uH=0.10|dist=5|id=75.0pct
+GVWYKVVVTTKKKADDKDVV
+>DeepAMP_080|seed=P84964|Triticum monococcum|scorerP=0.991|charge=3.7|uH=0.15|dist=5|id=89.8pct
+RTCQSQSHKFKGACFSFTNCAHVCRTENFPEGCCNQHHVERKCYCWRDC
+>DeepAMP_081|seed=P84200|Gymnocladus chinensis|scorerP=0.990|charge=2.1|uH=0.32|dist=5|id=50.0pct
+KKCENRCHCY
+>DeepAMP_082|seed=P83630|Hydrangea macrophylla|scorerP=0.989|charge=3.0|uH=0.13|dist=5|id=66.7pct
+NSMWRKEEWRKKLWW
+>DeepAMP_083|seed=P84200|Gymnocladus chinensis|scorerP=0.986|charge=2.2|uH=0.38|dist=5|id=50.0pct
+KKCENKMCHY
+>DeepAMP_084|seed=P84968|Triticum kiharae|scorerP=0.982|charge=3.2|uH=0.05|dist=5|id=89.8pct
+HTCEHQYHKFKGPCFKDSNCATVCRTENFPHGQCNQHHVERKCYCERSC
+>DeepAMP_085|seed=DRAMP00305|Capsicum chinense (Scotch bonnet) (Bonnet pepper)|scorerP=0.978|charge=2.9|uH=0.13|dist=5|id=88.6pct
+NNFYSYNWFWTAAKSFPGFGTTGDTAWRGPRQGSYNYNYGPCGR
+>DeepAMP_086|seed=P84968|Triticum kiharae|scorerP=0.977|charge=3.9|uH=0.05|dist=5|id=89.8pct
+HTCEHQYHKFKGPCFKDSNCATVCRTENFPKGQCNQHHVERKCYCERSC
+>DeepAMP_087|seed=P84968|Triticum kiharae|scorerP=0.977|charge=2.9|uH=0.05|dist=5|id=89.8pct
+HTCEGQFHKFKGPCFKDSNCATVCRTENFPHGQCNQHHVERKCYCERSC
+>DeepAMP_088|seed=DRAMP04687|Capsicum annuum var. annuum (Red pepper)|scorerP=0.976|charge=2.0|uH=0.02|dist=5|id=62.5pct
+GSNIKVKLGLPNWWVW
+>DeepAMP_089|seed=P83630|Hydrangea macrophylla|scorerP=0.968|charge=4.0|uH=0.22|dist=5|id=66.7pct
+NSMWRKEEWRKKLWK
+>DeepAMP_090|seed=P83630|Hydrangea macrophylla|scorerP=0.967|charge=3.2|uH=0.17|dist=5|id=66.7pct
+NSMWRKEEWRKKLWH
+>DeepAMP_091|seed=P83988|Cicer arietinum|scorerP=0.970|charge=2.0|uH=0.06|dist=5|id=75.0pct
+GVWYKVVVTTKKKADDRDVV
+>DeepAMP_092|seed=DRAMP00305|Capsicum chinense (Scotch bonnet) (Bonnet pepper)|scorerP=0.965|charge=2.9|uH=0.14|dist=5|id=88.6pct
+NNFYSYNWFYTAAKSFPGFGTTGDTAWRGPRQGSYNYNYGPCGR
+>DeepAMP_093|seed=DRAMP00305|Capsicum chinense (Scotch bonnet) (Bonnet pepper)|scorerP=0.965|charge=2.9|uH=0.17|dist=5|id=88.6pct
+NNFYSYNWFNTAAKSFPGFGTTGDTAWRGPRQWSYNYNYGPCGR
+>DeepAMP_094|seed=P83988|Cicer arietinum|scorerP=0.966|charge=2.0|uH=0.11|dist=5|id=75.0pct
+GVWYKVVVTTRKKADDKDVV
+>DeepAMP_095|seed=P83142|Malva parviflora|scorerP=0.982|charge=1.9|uH=0.10|dist=5|id=50.0pct
+SDCCRKRCPKQKYECE
+>DeepAMP_096|seed=P86706|Cocos nucifera|scorerP=0.964|charge=2.0|uH=0.40|dist=5|id=45.5pct
+TWRRFVFWVGW
+>DeepAMP_097|seed=P84884|Passiflora edulis|scorerP=0.937|charge=2.2|uH=0.33|dist=5|id=80.0pct
+QSWRFEQQMQGWWFSHDRRFLSRAA
+>DeepAMP_098|seed=P83142|Malva parviflora|scorerP=0.959|charge=1.9|uH=0.15|dist=5|id=50.0pct
+SDCCRKRCPRQKYECE
+>DeepAMP_099|seed=P86706|Cocos nucifera|scorerP=0.940|charge=2.0|uH=0.43|dist=5|id=45.5pct
+TFRRFVFWVGW
+>DeepAMP_100|seed=P84884|Passiflora edulis|scorerP=0.935|charge=2.2|uH=0.30|dist=5|id=80.0pct
+QSWRFEQQMQGWWFSHDKRFLSKAA
+>DeepAMP_101|seed=P84884|Passiflora edulis|scorerP=0.934|charge=2.2|uH=0.32|dist=5|id=80.0pct
+QSWRFEQQMQGWWFSHDRRFLSKAA
+>DeepAMP_102|seed=P86706|Cocos nucifera|scorerP=0.942|charge=1.9|uH=0.16|dist=5|id=45.5pct
+TKKCFVFWVGC
+>DeepAMP_103|seed=DRAMP04687|Capsicum annuum var. annuum (Red pepper)|scorerP=0.925|charge=2.0|uH=0.06|dist=5|id=62.5pct
+GSNIRVKLGLPNWWVW
+>DeepAMP_104|seed=P83142|Malva parviflora|scorerP=0.924|charge=1.9|uH=0.14|dist=5|id=50.0pct
+SDCWRKRCPKQKYECE
+>DeepAMP_105|seed=DRAMP04687|Capsicum annuum var. annuum (Red pepper)|scorerP=0.912|charge=1.9|uH=0.04|dist=5|id=62.5pct
+GSNIKVKLGLPNWCVW
+>DeepAMP_106|seed=P86920|Arachis hypogaea|scorerP=0.880|charge=2.0|uH=0.41|dist=5|id=60.0pct
+LKSLWFSYNNFEKKW
+>DeepAMP_107|seed=P86920|Arachis hypogaea|scorerP=0.978|charge=1.0|uH=0.42|dist=5|id=60.0pct
+LKSLWFSYNNFEKWW
+>DeepAMP_108|seed=P86920|Arachis hypogaea|scorerP=0.971|charge=0.9|uH=0.30|dist=5|id=60.0pct
+LKSLWFSYNNFECKW
+>DeepAMP_109|seed=P84794|Solanum tuberosum|scorerP=0.953|charge=1.0|uH=0.41|dist=5|id=70.0pct
+LPSDWTLVLKQTWKELDKKL
+>DeepAMP_110|seed=P84794|Solanum tuberosum|scorerP=0.946|charge=1.0|uH=0.41|dist=5|id=70.0pct
+LPSDWTLVLKQTLKELDKKL
+>DeepAMP_111|seed=P86548|Glycine max|scorerP=0.789|charge=2.0|uH=0.37|dist=5|id=76.0pct
+PWPKVFFKMTIGGQSWIRIVMEIYA
+>DeepAMP_112|seed=P84794|Solanum tuberosum|scorerP=0.938|charge=1.0|uH=0.42|dist=5|id=70.0pct
+LPSDWTLVLKQTIKELDKKL
+>DeepAMP_113|seed=P84073|Luffa aegyptiaca|scorerP=0.939|charge=0.9|uH=0.40|dist=5|id=50.0pct
+WCGWPRTEYEARRY
+>DeepAMP_114|seed=P86548|Glycine max|scorerP=0.782|charge=2.0|uH=0.35|dist=5|id=76.0pct
+PWPKVFFKMTIGGQSWYRIVMEIYA
+>DeepAMP_115|seed=P86548|Glycine max|scorerP=0.781|charge=2.0|uH=0.37|dist=5|id=76.0pct
+PWPKVFFKMTIGGQSWFRIVMEIYA
+>DeepAMP_116|seed=P84073|Luffa aegyptiaca|scorerP=0.933|charge=0.9|uH=0.41|dist=5|id=50.0pct
+WCGWPRTEYEAKRY
+>DeepAMP_117|seed=P84073|Luffa aegyptiaca|scorerP=0.873|charge=1.2|uH=0.39|dist=5|id=50.0pct
+WCGWPRTEYEARRH
+>DeepAMP_118|seed=B3EWF0|Passiflora alata|scorerP=0.239|charge=1.7|uH=0.25|dist=5|id=83.9pct
+PGAGKQEHRMQGHMWGQDFSHKERFLSMVRE
+>DeepAMP_119|seed=B3EWF0|Passiflora alata|scorerP=0.236|charge=1.7|uH=0.27|dist=5|id=83.9pct
+PGAGRQEHRMQGHMWGQDFSHKERFLSMVRE
+>DeepAMP_120|seed=B3EWF0|Passiflora alata|scorerP=0.336|charge=0.9|uH=0.28|dist=5|id=83.9pct
+PGAGKQEHRMQGHMWGQDFSHHERFLSMVRE

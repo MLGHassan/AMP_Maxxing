@@ -19,3 +19,5 @@ data/raw/
 
 # Everything else is small and SHOULD be committed for reproducibility:
 # data/processed/*.tsv, DATA_SUMMARY.json, plant_seeds.fasta, results/, outputs/, figures/
+
+.claude/

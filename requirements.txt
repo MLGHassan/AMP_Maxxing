@@ -1,8 +1,26 @@
-torch
-transformers
-biopython
-scikit-learn
-pandas
-numpy
-matplotlib
-rapidfuzz
+# DeepAMP dependencies. Floors, not pins, so the project installs on Windows,
+# macOS (Intel and Apple Silicon) and Linux. For the exact versions a reported
+# run used, see requirements-lock.txt.
+#
+# Why each floor:
+#   torch        >=2.2  : torch.load(weights_only=True) is the default we rely on
+#   transformers >=4.38 : EsmModel API used by esm_embed.py
+#   matplotlib   >=3.9  : plt.boxplot(tick_labels=...) keyword
+#   pandas       >=2.0  : to_csv(lineterminator=...) keyword
+#   scikit-learn >=1.3  : GroupKFold used by the cross-validation protocol
+torch>=2.2
+transformers>=4.38
+biopython>=1.81
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.9
+rapidfuzz>=3.0
+
+# Optional, not imported by any pipeline step:
+#   modlAMP - the proposal named it for the physicochemical descriptors. It is
+#     unmaintained and does not build on current Python, so common.py computes the
+#     same five descriptors directly (see tests/test_descriptors.py, which checks
+#     them against modlAMP's published definitions). Install it only if you want
+#     to run that cross-check against the library itself:
+# modlamp>=4.3

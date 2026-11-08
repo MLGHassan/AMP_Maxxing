@@ -1,0 +1,20 @@
+{
+  "_comment": [
+    "External accuracy reference for the scorer, as the proposal requires (EthnoHack has no leaderboard).",
+    "These are the figures AMP Scanner v2 reports on ITS OWN test set (Veltri, Kamath & Shehu 2018,",
+    "Bioinformatics 34(16):2740-2747). They are NOT comparable to our numbers line by line: different",
+    "positives (APD3/DAMPD-derived rather than Swiss-Prot), different negatives, and a different split.",
+    "They are reported as an order-of-magnitude sanity check only.",
+    "ACTION FOR THE TEAM: open the paper, confirm each digit below, then set verified to true."
+  ],
+  "name": "AMP Scanner v2 (Veltri et al. 2018)",
+  "dataset": "authors' own benchmark (not ours)",
+  "verified": false,
+  "metrics": {
+    "accuracy": 0.9101,
+    "sensitivity": 0.8929,
+    "specificity": 0.9273,
+    "mcc": 0.8213,
+    "roc_auc": 0.9638
+  }
+}
